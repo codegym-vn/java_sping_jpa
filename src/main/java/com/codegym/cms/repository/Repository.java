@@ -4,7 +4,7 @@ import java.util.List;
 
 public interface Repository <T>  {
     List<T> findAll();
-m
+
     T findById(Long id);
 
     void save(T model);

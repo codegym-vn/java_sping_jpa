@@ -2,6 +2,7 @@ package com.codegym.cms;
 import com.codegym.cms.repository.CustomerRepository;
 import com.codegym.cms.repository.impl.CustomerRepositoryImpl;
 import com.codegym.cms.service.CustomerService;
+import com.codegym.cms.service.impl.CustomerServiceImpl;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
